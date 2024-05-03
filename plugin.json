@@ -1,0 +1,24 @@
+{
+  "uuid": "c312e33b-135c-4299-bcce-e88344cf276d",
+  "system": true,
+  "id": "execute_javascript",
+  "userSettings": null,
+  "emoji": "⌨️",
+  "title": "JavaScript Interpreter",
+  "openaiSpec": {
+    "name": "execute_javascript",
+    "description": "Execute a JavaScript code snippet that evaluates to a readable value or a Promise. Use this function to evaluate a JavaScript expression, send a fetch request, or use other JavaScript features or Browser APIs. The JavaScript will be executed on the user's local browser in a secure sandboxed context.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "A valid JavaScript code snippet to be executed on the browser."
+        }
+      },
+      "required": ["code"]
+    }
+  },
+  "implementationType": "javascript",
+  "outputType": "respond_to_ai"
+}
