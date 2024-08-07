@@ -7,6 +7,7 @@
   "openaiSpec": {
     "name": "execute_javascript",
     "description": "Execute a JavaScript code snippet that evaluates to a readable value or a Promise. Use this function to evaluate a JavaScript expression, send a fetch request, or use other JavaScript features or Browser APIs. The JavaScript will be executed on the user's local browser in a secure sandboxed context.",
+    "strict": true,
     "parameters": {
       "type": "object",
       "properties": {
